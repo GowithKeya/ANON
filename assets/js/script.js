@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   async function getBotResponse(userMessage) {
-    const apiKey = "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";
+    const apiKey = "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";
     const apiUrl = "https://api.openai.com/v1/chat/completions";
 
     try {
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
           Authorization: `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
-          model: "gpt-5.1",
+          model: "gpt-5",
           messages: [{ role: "user", content: userMessage }],
           max_tokens: 150,
         }),
