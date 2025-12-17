@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   async function getBotResponse(userMessage) {
-    const apiKey = "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";
+    const apiKey = "sk-YOUR_API_KEY_HERE";
     const apiUrl = "https://api.openai.com/v1/chat/completions";
 
     try {
